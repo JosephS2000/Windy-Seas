@@ -11,5 +11,6 @@ public class SCR_Follow : MonoBehaviour
     void Update()
     {
         transform.position = player.position + offset;
+        transform.rotation = player.rotation;
     }
 }

@@ -18,7 +18,7 @@ public class SCR_Propulsion : MonoBehaviour
     {
         if (Input.GetKey("w"))
         {
-            rb.AddForce(Vector3.forward * wind);
+            rb.AddRelativeForce(Vector3.forward * wind);
         }
     }
 }
