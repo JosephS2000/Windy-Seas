@@ -63,7 +63,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\SCR_Follow.cs" />
     <Compile Include="Assets\Scripts\SCR_Propulsion.cs" />
+    <Compile Include="Assets\Scripts\SCR_Score.cs" />
     <Compile Include="Assets\Scripts\SCR_SteeringScript.cs" />
+    <Compile Include="Assets\Scripts\SCR_TreasureCollect.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Spaul/Documents/COMP 140/Windy-Seas/COMP140GameController/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

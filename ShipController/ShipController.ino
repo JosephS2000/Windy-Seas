@@ -7,7 +7,7 @@ void setup() {
 }
 
 void loop() {
-  
+
   Heading = analogRead(A0); //Reads what comes out of the A0 port and assigns it to the variable Heading
   
   Heading = map(Heading, 0, 1024, 0, 360); //Maps the 1024 that the potentiometer will give off onto the 360 degrees that the ship will turn in
